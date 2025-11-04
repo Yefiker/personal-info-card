@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: lightslategray;
+    background-color: whitesmoke;
+    
+}
+
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+header {
+    background-color: rgb(64, 60, 60);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: lightslategray;
+    font-size: 2rem;
+}
+
+nav ol {
+    list-style-type: none;
+    display:flex;
+    gap: 2rem;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: lightslategray;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+nav a:visited {
+    color: aliceblue;
+}
+
+nav a:hover,
+a:focus {
+    background-color: blanchedalmond;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+nav a:active {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: rgb(89, 88, 88);
+    position: sticky;
+    bottom: 0;
+    font-size: 1rem;
+}
+
+
